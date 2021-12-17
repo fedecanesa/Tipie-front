@@ -1,0 +1,47 @@
+@import '../../assets/styles/base.scss';
+.menu {
+    background-color: $main-color;
+    color: $white;
+    height: 100px;
+    padding: 0 40px;
+    min-width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    /*flex*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .menu__logo {
+        height: 80px;
+        margin-top: 5px;
+        width: fit-content;
+
+        img {
+            height: 100%;
+            object-fit: contain;
+            width: 100%;
+        }
+    }
+
+    .menu__login {
+        /*flex*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .menu__login-text {
+            border: 1px solid $white;
+            border-radius: 4px;
+            color: $white;
+            font-weight: 700;
+            padding: 10px 20px;
+            line-height: 1rem;
+            text-decoration: none;
+        }
+    }
+}
