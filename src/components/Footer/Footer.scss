@@ -1,0 +1,77 @@
+@import "../../assets/styles/base.scss";
+
+#footer {
+  background: $main-color;
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+
+#footer .footer__header {
+    width: 100%;
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    
+}
+#footer .footer__header--container {
+    height: 65px;
+    width: fit-content;
+
+}
+#footer .footer__header--container > img {
+    height: 100%;
+    width: 100%;
+}
+
+#footer .footer__body {
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 120px;
+    margin: auto;
+    width: 80%;
+    color: #fff;
+    
+    /*flex*/
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+
+    h4 {
+        text-decoration: none;
+    }
+}
+
+
+.footer__body--social > h4 {
+    color: $emphasize-color;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+
+#footer .footer__body--social {
+    text-align: center;
+}
+
+#footer .footer__body--social ul li {
+  display: inline-block;
+  margin:  15px;
+}
+
+#footer .footer__body--social img{
+  font-size: 22px;
+  width: 38px;
+  height: 38px;
+  padding: 6px 0;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+#footer .footer__body--social img:hover {
+  color: #2E83FF;
+  background: #fff;
+}
