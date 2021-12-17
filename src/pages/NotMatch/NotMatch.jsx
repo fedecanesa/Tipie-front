@@ -1,6 +1,5 @@
 import React from "react";
 import NotFound from '../../assets/img/404.png';
-import { Layout } from '../../components';
 import "./NotMatch.scss";
 
 const NotMatch = () => {
