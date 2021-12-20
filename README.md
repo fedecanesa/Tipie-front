@@ -2,9 +2,11 @@
 
 ## Description
 
-Challenge for "Tipie". This App was made with React Js. In this application you can log in, and once entered, you will see a table with employee data, which has pagination and the ability to filter and sort.
+Challenge for "Tipie". This App was made with React Js adn Node js. In this application you can log in, and once entered, you will see a table with employee data, which has pagination and the ability to filter and sort. In the backend you can validate he user and consume the information of the table
 
 ## Technologies used 🛠️
+
+### Frontend
 
 - React JS
 - react-router
@@ -14,6 +16,13 @@ Challenge for "Tipie". This App was made with React Js. In this application you 
 - yup
 - sass
 - material-table
+
+### Backend
+
+- Node JS
+- Express
+- cors
+- morgan
 
 ## Starting 🚀
 
