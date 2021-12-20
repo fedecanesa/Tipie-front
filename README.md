@@ -1,4 +1,6 @@
-# Description
+# Tipe Challenge - Frontend
+
+## Description
 
 _ Challenge for "Tipie". This App was made with React Js. In this application you can log in, and once entered, you will see a table with employee data, which has pagination and the ability to filter and sort.._
 
